@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">Logo</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Menu -->
+        <aside class="left-menu">
+            <button class="toggle-menu" onclick="toggleMenu()">☰ Toggle Menu</button>
+            <ul class="menu-items">
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><a href="#section4">Section 4</a></li>
+                <li><a href="#section5">Section 5</a></li>
+                <li class="menu-divider">Categories</li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li class="menu-divider">Tools</li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section id="section1">
+                <h1>Welcome to Our Platform</h1>
+                <p class="lead">Discover the power of modern web development with our comprehensive solutions.</p>
+                
+                <div class="card">
+                    <h2>Featured Content</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>Web Design</h3>
+                        <p>Create beautiful and responsive websites that work across all devices.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Development</h3>
+                        <p>Build robust applications using the latest technologies and frameworks.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>UI/UX Design</h3>
+                        <p>Design intuitive user interfaces that provide excellent user experience.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Marketing</h3>
+                        <p>Promote your products and services effectively in the digital space.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section2">
+                <h2>About Our Services</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                
+                <div class="image-placeholder">
+                    <span>Image Placeholder</span>
+                </div>
+
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </section>
+
+            <section id="section3">
+                <h2>Our Process</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <h3>Step 1: Planning</h3>
+                        <p>Detailed analysis and planning of your project requirements.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Step 2: Design</h3>
+                        <p>Creating intuitive and appealing design solutions.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Step 3: Development</h3>
+                        <p>Building your solution using cutting-edge technologies.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Step 4: Testing</h3>
+                        <p>Thorough testing and quality assurance processes.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section4">
+                <h2>Latest Updates</h2>
+                <div class="updates-grid">
+                    <div class="update-card">
+                        <h3>New Feature Release</h3>
+                        <p>Introducing our latest features designed to enhance your experience.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                    <div class="update-card">
+                        <h3>System Improvements</h3>
+                        <p>Recent updates to improve system performance and reliability.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section5">
+                <h2>Get Started</h2>
+                <p>Ready to begin your journey? Contact us today to discuss your project requirements.</p>
+                <div class="cta-container">
+                    <a href="#" class="btn btn-primary">Contact Us</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Panel -->
+        <aside class="right-panel">
+            <div class="widget">
+                <h3>Quick Stats</h3>
+                <ul class="stats-list">
+                    <li>Active Users: 1,234</li>
+                    <li>Projects: 567</li>
+                    <li>Total Hours: 89,012</li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h3>Recent Activity</h3>
+                <ul class="activity-list">
+                    <li>New project created</li>
+                    <li>Report generated</li>
+                    <li>System update completed</li>
+                    <li>New user registered</li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Community Forum</a></li>
+                    <li><a href="#">Knowledge Base</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Leading provider of web development solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
